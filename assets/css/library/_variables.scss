@@ -1,0 +1,26 @@
+$base-font-size   : 16px;
+$small-font-size  : 18px;
+$medium-font-size : 20px;
+$large-font-size  : 22px;
+
+// Colors
+
+// Whites
+$white : #ffffff;
+
+// Blacks
+$black : #000000;
+
+// Font Families
+$font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// GRID VARIABLES
+$grid-gutter-width        : 15px;
+$grid-large-gutter-width  : 20px;
+$grid-medium-gutter-width : 15px;
+$grid-small-gutter-width  : 10px;
+$grid-column-amount       : 16;
+$grid-large-breakpoint    : 1380px;
+$grid-medium-breakpoint   : 1170px;
+$grid-small-breakpoint    : 940px;
+$grid-xsmall-breakpoint   : 768px;

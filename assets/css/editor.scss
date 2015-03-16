@@ -1,0 +1,13 @@
+@import "library/variables";
+
+@import "library/mixins";
+
+body#tinymce.wp-editor {
+
+	font-family : $font-family;
+
+	@import "layout/typography";
+
+	@import "layout/layout";
+
+}
