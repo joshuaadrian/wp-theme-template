@@ -16,10 +16,10 @@ if ( !function_exists('_log') ) {
 }
 
 // REQUIRE CLASSES
-require_once( 'classes/class-project.php' );
+require_once( 'classes/Project.php' );
 
 if ( is_admin() ) { 
-  require_once( 'classes/class-project-admin.php' );
+  require_once( 'classes/ProjectAdmin.php' );
 }
 
 // REQUIRE EXTENSIONS
