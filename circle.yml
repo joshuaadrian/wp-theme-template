@@ -1,3 +1,5 @@
+## WORK IN PROGRESS..... NEED HELP TO FINISH
+
 ## Customize the test machine
 machine:
 
@@ -35,6 +37,12 @@ dependencies:
 test:
   override:
     # comment out the below line to run a code coverage report.
-    - cd $theme_tests_dir; phpunit
+    - phpunit $theme_tests_dir
     ## LINE 2/2 to uncomment if you want to run a code coverage report.
     ## - cd $theme_tests_dir; phpunit --coverage-html $CIRCLE_ARTIFACTS - See more at: http://unfoldingneurons.com/2014/using-circleci-com-for-automated-wordpress-theme-testing#sthash.IMLEEPhX.dpuf
+
+# deployment:
+#   staging:
+#     branch: master
+#     commands:
+#       - git push staging staging
